@@ -1,9 +1,12 @@
-# Write your code below this line 👇
+# TODO-Write your code below this line 👇
+
+list = [2,3,4,5,6,7,8,9,10]
 def prime_checker(number):
-    if (number % 2 != 0) and (number / number == 1):
-        print("It's a prime number.")
-    else:
-        print("It's not a prime number.")
+    for prime in range (list):
+        print(prime)
+
+
+
 
 
 
